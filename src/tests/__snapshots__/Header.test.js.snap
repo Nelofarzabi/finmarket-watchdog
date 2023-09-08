@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header matches snapshot 1`] = `
+<div>
+  <header
+    class="flex justify-between items-center p-4 bg-[#2C3333] shadow-lg"
+  >
+    <h2
+      class=" md:text-2xl w-[50%] whitespace-nowrap text-xl text-[#F8F0E5]"
+    >
+      Active Companies
+    </h2>
+    <form
+      action=""
+      class="w-[50%]"
+    >
+      <input
+        class="border w-full px-2 py-1 rounded-md outline-none"
+        id=""
+        name=""
+        placeholder="search company by name..."
+        type="text"
+      />
+    </form>
+  </header>
+</div>
+`;

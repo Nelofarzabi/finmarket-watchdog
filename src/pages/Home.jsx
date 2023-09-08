@@ -1,21 +1,19 @@
-import React, { useEffect } from 'react';
-import { useSelector, useDispatch } from 'react-redux';
-import { getActiveCompanies } from '../redux/companies/companiesSlice';
+import { useSelector } from 'react-redux';
 import Header from '../components/Header';
 import CompaniesList from '../components/CompaniesList';
+import Loading from '../components/Loading';
+import Error from '../components/Error';
 
 const Home = () => {
-  const { loading } = useSelector((state) => state.companies);
-  const dispatch = useDispatch();
-  useEffect(() => {
-    dispatch(getActiveCompanies());
-  }, [dispatch]);
-
+  const { loading, error } = useSelector((state) => state.companies);
   if (loading) {
-    return <h2>Loading</h2>;
+    return <Loading />;
+  }
+  if (error) {
+    return <Error />;
   }
   return (
-    <main className=" bg-[#2C3333]">
+    <main className=" bg-[#2C3333] min-h-screen">
       <Header />
       <CompaniesList />
     </main>
