@@ -1,175 +1,70 @@
-<!-- TABLE OF CONTENTS -->
+# Getting Started with Create React App
 
-# 📗 Table of Contents
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-- [📗 Table of Contents](#-table-of-contents)
-- [📖 \[FINMARKET WATCHDOG\] ](#-finmarket-watchdog-)
-  - [🛠 Built With ](#-built-with-)
-    - [Tech Stack ](#tech-stack-)
-    - [Key Features ](#key-features-)
-  - [💻 Getting Started ](#-getting-started-)
-    - [Prerequisites](#prerequisites)
-    - [Setup](#setup)
-    - [Install](#install)
-    - [Usage](#usage)
-    - [Run tests](#run-tests)
-  - [👥 Authors ](#-authors-)
-  - [🤝 Contributing ](#-contributing-)
-  - [⭐️ Show your support ](#️-show-your-support-)
-  - [🙏 Acknowledgments ](#-acknowledgments-)
-  - [📝 License ](#-license-)
+## Available Scripts
 
-<!-- PROJECT DESCRIPTION -->
+In the project directory, you can run:
 
-# 📖 [FINMARKET WATCHDOG] <a name="about-project"></a>
+### `npm start`
 
-**[MFINMARKET WATCHDOG]**  is a powerful webapp designed to keep you informed about active financial market companies. Whether you're an investor, trader, or simply interested in the financial markets, this application provides you with up-to-date information on a wide range of companies, including their details and performance metrics.
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
+### `npm test`
 
-## 🛠 Built With <a name="built-with"></a>
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### Tech Stack <a name="tech-stack"></a>
+### `npm run build`
 
-<details>
-  <summary>HTML5</summary>
-  <ul>
-    <li><a href="https://html.com/">HTML5</a></li>
-  </ul>
-</details>
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-<details>
-  <summary>Tailwind</summary>
-  <ul>
-    <li><a href="https://www.tailwind.com/">Tailwind</a></li>
-  </ul>
-</details>
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-<details>
-<summary>Javascript</summary>
-  <ul>
-    <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">Javascript</a></li>
-  </ul>
-</details>
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-<details>
-  <summary>React</summary>
-  <ul>
-    <li><a href="https://react.dev/">React</a></li>
-  </ul>
-</details>
+### `npm run eject`
 
-<!-- Features -->
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-### Key Features <a name="key-features"></a>
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-1. Company List: View a comprehensive list of active financial market companies.
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-2. Company Details: Access detailed information about each company, including but not limited to:
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-* Company Name
-* Company CEO
-* Ticker Symbol
-* Industry
-* Dividend Yield
-* And more...
-3. Search Functionality: Easily search for specific companies using their names or ticker symbols.
+## Learn More
 
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
+To learn React, check out the [React documentation](https://reactjs.org/).
 
+### Code Splitting
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
+### Analyzing the Bundle Size
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-<!-- GETTING STARTED -->
+### Making a Progressive Web App
 
-## 💻 Getting Started <a name="getting-started"></a>
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-To get a local copy up and running, follow these steps.
+### Advanced Configuration
 
-### Prerequisites
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-In order to run this project you need:
+### Deployment
 
-npm
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### Setup
+### `npm run build` fails to minify
 
-Clone this repository to your desired folder:
-
-Example commands:
-
-` git clone https://github.com/Akorede3133/finmarket-watchdog.git `
-
-`cd finmarket-watchdog`
-
-`git checkout dev`
-
-### Install
-
-Install this project with:
-- npm install
-
-### Usage
-
-To run the project, execute the following command:
-
-- npm start
-
-### Run tests
-
-To run tests, run the following command:
-
-- npm test
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- AUTHORS -->
-
-## 👥 Authors <a name="authors"></a>
-
-👤 *Akorede*
-
-- GitHub: [Akorede](https://github.com/Akorede3133)
-- Twitter: [Akorede](https://twitter.com/SaheedAkorede7)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- CONTRIBUTING -->
-
-## 🤝 Contributing <a name="contributing"></a>
-
-Contributions, issues, and feature requests are welcome!
-
-Feel free to check the [issues page](https://github.com/Akorede3133/finmarket-watchdog/issues).
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- SUPPORT -->
-
-## ⭐️ Show your support <a name="support"></a>
-
-If you like this project give it a star!
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- ACKNOWLEDGEMENTS -->
-
-## 🙏 Acknowledgments <a name="acknowledgements"></a>
-
-I would like to thank Microverse for this great opportunity and also to  [Nelson Sakwa](https://www.behance.net/sakwadesignstudio) for creating the Original design on Behance.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- LICENSE -->
-
-## 📝 License <a name="license"></a>
-
-This project is [MIT](https://github.com/Akorede3133/finmarket-watchdog/blob/dev/LICENSE) licensed.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

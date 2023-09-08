@@ -4,28 +4,22 @@ exports[`FinancialStatement matches snapshot 1`] = `
 <div>
   <div>
     <table
-      class="w-full md:w-[60%] mx-auto"
+      class="w-full"
     >
       <tbody>
         <tr>
           <th
-            class="text-center"
+            class="w-[10%]"
           >
             Year
           </th>
-          <th
-            class="text-center"
-          >
+          <th>
             Income(net)
           </th>
-          <th
-            class="text-center"
-          >
+          <th>
             Expenses(operating)
           </th>
-          <th
-            class="text-center"
-          >
+          <th>
             Gross Profit
           </th>
         </tr>

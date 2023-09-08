@@ -4,9 +4,6 @@ import {
   RouterProvider,
   Route,
 } from 'react-router-dom';
-import { useEffect } from 'react';
-import { useDispatch } from 'react-redux';
-import { getActiveCompanies } from './redux/companies/companiesSlice';
 import Home from './pages/Home';
 import Details from './pages/Details';
 import PageNotFound from './components/PageNotFound';
@@ -26,10 +23,6 @@ const router = createBrowserRouter(createRoutesFromElements(
   </Route>,
 ));
 function App() {
-  const dispatch = useDispatch();
-  useEffect(() => {
-    dispatch(getActiveCompanies());
-  }, [dispatch]);
   return (
     <div className="App">
       <RouterProvider router={router} />
