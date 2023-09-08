@@ -128,7 +128,7 @@ To run tests, run the following command:
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Live Demo
-[Live Demo ](https://comforting-stardust-96a724.netlify.app/)
+[Live Demo ](https://comforting-stardust-96a724.netlify.app/
 
 <!-- AUTHORS -->
 
