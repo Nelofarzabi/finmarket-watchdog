@@ -3,7 +3,7 @@ import { createAsyncThunk, createSlice } from '@reduxjs/toolkit';
 const initialState = {
   companies: [],
   filteredCompanies: [],
-  companyDetail: [],
+  companyDetail: {},
   statement: [],
   loading: false,
   error: '',
@@ -62,7 +62,6 @@ const companiesSlice = createSlice({
         state.loading = false;
         if (action.payload['Error Message']) {
           state.companies = [];
-          return;
         }
         state.companies = action.payload;
       })
@@ -90,7 +89,7 @@ const companiesSlice = createSlice({
       })
       .addCase(getCompanyStatement.rejected, (state, action) => {
         state.loading = false;
-        state.error = action.error.message;
+        state.error = action.error;
       });
   },
 });
