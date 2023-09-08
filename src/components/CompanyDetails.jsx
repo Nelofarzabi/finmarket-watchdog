@@ -17,7 +17,7 @@ const CompanyDetails = () => {
     symbol,
   } = useOutletContext();
   return (
-    <div className="mt-5 w-[90%] mx-auto">
+    <div className="mt-5 w-[90%] md:w-[60%] mx-auto">
       <table className="w-full">
         <tbody>
           <tr>
