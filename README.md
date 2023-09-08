@@ -7,6 +7,7 @@
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
+     - [🚀 Live Demo](#live-demo)
   - [💻 Getting Started ](#-getting-started-)
     - [Prerequisites](#prerequisites)
     - [Setup](#setup)
@@ -127,7 +128,7 @@ To run tests, run the following command:
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Live Demo
-[Live Demo ](https://starlit-cajeta-29b345.netlify.app/)
+[Live Demo ](https://comforting-stardust-96a724.netlify.app/
 
 <!-- AUTHORS -->
 
@@ -140,6 +141,12 @@ To run tests, run the following command:
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/nelofar-zabi-1a1066213)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🔭 Future Features <a name="future-features"></a>
+
+
+- [ ] **[Add  transitions or animations]**
+- [ ] **[Add more pages]**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
