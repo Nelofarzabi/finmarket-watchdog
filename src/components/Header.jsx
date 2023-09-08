@@ -10,7 +10,7 @@ const Header = () => {
   };
   return (
     <header className="flex justify-between items-center p-4 bg-[#2C3333] shadow-lg">
-      <h2 className=" text-2xl text-[#F8F0E5]">Active Companies</h2>
+      <h2 className=" md:text-2xl w-[50%] whitespace-nowrap text-xl text-[#F8F0E5]">Active Companies</h2>
       <form action="" className="w-[50%]">
         <input
           type="text"

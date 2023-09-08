@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NoMatchFound matches snapshot 1`] = `
+<div>
+  <div
+    class="flex justify-center min-h-screen h-full pt-10"
+  >
+    <h2
+      class=" text-3xl text-[#96B6C5] text-center"
+    >
+      Sorry, No Match Was Found
+    </h2>
+  </div>
+</div>
+`;

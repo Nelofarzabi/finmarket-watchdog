@@ -1,0 +1,86 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FinancialStatement matches snapshot 1`] = `
+<div>
+  <div>
+    <table
+      class="w-full md:w-[60%] mx-auto"
+    >
+      <tbody>
+        <tr>
+          <th
+            class="text-center"
+          >
+            Year
+          </th>
+          <th
+            class="text-center"
+          >
+            Income(net)
+          </th>
+          <th
+            class="text-center"
+          >
+            Expenses(operating)
+          </th>
+          <th
+            class="text-center"
+          >
+            Gross Profit
+          </th>
+        </tr>
+        <tr>
+          <td
+            class="w-[10%]"
+          >
+            2021
+          </td>
+          <td
+            class="w-[10%]"
+          >
+            $
+            800,000
+          </td>
+          <td
+            class="whitespace-nowrap w-[10%]"
+          >
+            $
+            200,000
+          </td>
+          <td
+            class="w-[10%]"
+          >
+            $
+            1,000,000
+          </td>
+        </tr>
+        <tr>
+          <td
+            class="w-[10%]"
+          >
+            2020
+          </td>
+          <td
+            class="w-[10%]"
+          >
+            $
+            750,000
+          </td>
+          <td
+            class="whitespace-nowrap w-[10%]"
+          >
+            $
+            200,000
+          </td>
+          <td
+            class="w-[10%]"
+          >
+            $
+            950,000
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+`;
